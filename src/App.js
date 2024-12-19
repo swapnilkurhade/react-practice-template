@@ -9,6 +9,9 @@ import Counter from './components/statemangers/Counter';
 import BearCounter from './components/statemangers/BearCounter';
 import HocMain from './components/hoc/HocMain';
 import RenderProps from './components/renderprops/RenderProps';
+import ErrorBoundryMain from './components/errorBoundry/ErrorBoundryMain';
+import ChildrenProps from './components/childrenprops/ChildrenProps';
+import ClassComp from './components/classcomponent/ClassComp';
 
 function App() {
   return (
@@ -34,7 +37,18 @@ function App() {
         {/* <HocMain/> */}
 
         {/* Render props */}
-        <RenderProps/>
+        {/* <RenderProps/> */}
+
+        {/* Error Boundry */}
+        {/* <ErrorBoundryMain/> */}
+
+        {/* childern Props */}
+        {/* <ChildrenProps/> */}
+
+        {/* Class components */}
+        {/* <ClassComp/> */}
+
+        
       </div>
     </>
 

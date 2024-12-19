@@ -2,6 +2,8 @@ import React from 'react'
 import MounseTracker from './MounseTracker'
 import DataFetching from './DataFetching'
 import Toggle from './Toggle'
+import FormValidation from './FormValidation'
+import AuthCheck from './AuthCheck'
 
 const RenderProps = () => {
   return (
@@ -10,7 +12,9 @@ const RenderProps = () => {
       <hr></hr>
       {/* <MounseTracker/> */}
       {/* <DataFetching/> */}
-      <Toggle/>
+      {/* <Toggle/> */}
+      {/* <FormValidation/> */}
+      {/* <AuthCheck/> */}
     </div>
   )
 }
