@@ -6,6 +6,9 @@ import { TestOfUse } from './components/Hooks/TestOfUse';
 import HooksMain from './components/Hooks/HooksMain';
 import PerformConcepts from './components/performance/PerformConcepts';
 import Counter from './components/statemangers/Counter';
+import BearCounter from './components/statemangers/BearCounter';
+import HocMain from './components/hoc/HocMain';
+import RenderProps from './components/renderprops/RenderProps';
 
 function App() {
   return (
@@ -24,7 +27,14 @@ function App() {
         {/* == redux implementations == */}
         {/* <Counter /> */}
 
+        {/* Zustand */}
+        {/* <BearCounter/> */}
 
+        {/* //Hoc's */}
+        {/* <HocMain/> */}
+
+        {/* Render props */}
+        <RenderProps/>
       </div>
     </>
 
